@@ -1,0 +1,7 @@
+.estudiantes-container{
+    width: 25%;
+    margin: 0 auto;
+    min-height: 500px;
+    border: 1px solid orange;
+    margin-top: 10px;
+}
