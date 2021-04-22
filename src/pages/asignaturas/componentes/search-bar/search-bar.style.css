@@ -1,0 +1,14 @@
+.search-bar-container{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 45px;
+    border: 2px solid blue;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: left;
+
+}
+
+.search-input{
+    margin-bottom: 10px;
+}
