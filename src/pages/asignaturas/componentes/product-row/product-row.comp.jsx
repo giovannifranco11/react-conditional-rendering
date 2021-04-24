@@ -9,9 +9,9 @@ const ProductRow = (props) => {
             {
                 props.product.nota < 3
                 ?//if true
-                    <span className="product-grade-bad">{props.product.name}</span>
+                    <span >{props.product.name}  <span className="uno"><span id="red">{props.product.nota}</span> {props.product.genero} {props.product.img}</span></span>
                 ://else
-                    <span>{props.product.name}</span>
+                    <span>{props.product.name} <span className="uno">{props.product.nota} {props.product.genero} {props.product.img}</span></span>
             }
                        
                       

@@ -9,3 +9,16 @@
     padding-right: 5px;
     
 }
+
+#titulos{  
+    color:lime;
+}
+
+.titulos{
+    text-align: left;
+    font-weight: bold;
+    word-spacing: 6cm;
+    padding-left: 15px;
+    margin-bottom: 5px;
+
+}

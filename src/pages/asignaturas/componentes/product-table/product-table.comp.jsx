@@ -3,61 +3,101 @@ import ProductCategoryRow from '../product-category-row/product-category-row.com
 import ProductRow from '../product-row/product-row.comp';
 
 
+
+
 import './product-table.style.css';
+import mujer from './imagenes/mujer.png';
+import hombre from './imagenes/hombre.png';
+
+
 
 const ProductTable = () => {
     return (
         <div className="product-table-container">
-           <ProductCategoryRow categoryName="Nombre de Estudiante"/>
+           <ProductCategoryRow categoryName="Programación I"/>
+           <div className="titulos">
+               Nombre  Nota  Género  Foto
+            </div>
+           
                 <ProductRow product={{
                     name:"Giovanni Franco",
-                    nota:4,               
-                }}/>
+                    nota:4.5,
+                    genero:"Masculino",
+                    img:<img src={hombre} />,        
+                }
+                }/>
+                
+                
 
                 <ProductRow product={{
                     name:"Nataly Martínez",
-                    nota:5,
+                    nota:5.0,
+                    genero:"Femenino",
+                    img:<img src={mujer} />,
                 }}/>
 
                 <ProductRow product={{
-                    name:"Pepito Perez",
-                    nota:2,
+                    name:"Pepito Perez Gil",
+                    nota:2.6,
+                    genero:"Masculino",
+                    img:<img src={hombre} />,
                 }}/>
+                              
+
+           <ProductCategoryRow categoryName="Programación II"/>
+           <div className="titulos">
+               Nombre  Nota  Género  Foto
+            </div>
+                <ProductRow product={{
+                    name:"Giovanni Franco",
+                    nota:4.8,
+                    genero:"Masculino",
+                    img:<img src={hombre} />,              
+                }
+                }/>
+
+                <ProductRow product={{
+                    name:"Nataly Martínez",
+                    nota:3.5,
+                    genero:"Femenino",
+                    img:<img src={mujer} />,
+                }}/>
+
+                <ProductRow product={{
+                    name:"Pepito Perez Gil",
+                    nota:2.7,
+                    genero:"Masculino",
+                    img:<img src={hombre} />,
+                }}/>
+
+           <ProductCategoryRow categoryName="Algortimos"/>  
+           <div className="titulos">
+               Nombre  Nota  Género  Foto
+            </div>
+                <ProductRow product={{
+                    name:"Giovanni Franco",
+                    nota:2.9,
+                    genero:"Masculino",
+                    img:<img src={hombre} />,
+                                
+                }
+                }/>
                 
 
-           <ProductCategoryRow categoryName="Curso"/>
                 <ProductRow product={{
-                    name:"Programación I",
-                    creditos:4,               
+                    name:"Nataly Martínez",
+                    nota:3.9,
+                    genero:"Femenino",
+                    img:<img src={mujer} />,
                 }}/>
 
                 <ProductRow product={{
-                    name:"Programación II",
-                    creditos:4,               
+                    name:"Pepito Perez Gil",
+                    nota:2.5,
+                    genero:"Masculino",
+                    img:<img src={hombre} />,
                 }}/>
-
-                    <ProductRow product={{
-                    name:"Algoritmos",
-                    creditos:2,               
-                }}/>
-
-           <ProductCategoryRow categoryName="Nota"/>  
-
-                <ProductRow product={{
-                    name:"1",              
-                }}/>    
-                <ProductRow product={{
-                    name:"2",              
-                }}/> 
-                <ProductRow product={{
-                    name:"3",              
-                }}/> 
-                <ProductRow product={{
-                    name:"4",              
-                }}/> 
-                <ProductRow product={{
-                    name:"5",              
-                }}/>  
+                
         </div>
     );    
 }
