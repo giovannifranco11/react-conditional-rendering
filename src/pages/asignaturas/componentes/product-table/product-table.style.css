@@ -17,8 +17,9 @@
 .titulos{
     text-align: left;
     font-weight: bold;
-    word-spacing: 6cm;
-    padding-left: 15px;
+    padding-left: 60px;     
     margin-bottom: 5px;
+    word-spacing: 4.9cm;
+    font-size:20px;
 
 }

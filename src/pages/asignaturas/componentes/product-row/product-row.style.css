@@ -2,26 +2,30 @@
     border: 2px solid red;
     text-align: left;
     margin-bottom: 5px;
+    padding-left: 20px;
+    
+    
+    
     
 }
 
 .product-grade-bad{
     color: red;
     font-weight: bold;
+    
+    
 }
 
-.product-credits{
-    color:green;
-    font-weight: bold;
-}
 
 .uno{
     
     word-spacing: 5cm;
     margin-left: 5.5cm;
+    
 }
 
 #red {
     color: red;
     font-weight: bold;
+    
 }
